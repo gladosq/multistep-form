@@ -1,0 +1,60 @@
+.root {
+  width: 400px;
+  background: rgba(128, 205, 238, 0.42);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(592px at 48.2% 50%, rgba(255, 255, 249, 0.6) 0%, rgb(160, 199, 254) 74.6%);
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.formItem {
+  margin-bottom: 14px;
+}
+
+.formItemMask {
+  input {
+    background: #b0c6e3;
+    height: 44px;
+
+    &:focus,
+    &:hover {
+      background: #b0c6e3;
+    }
+  }
+}
+
+.buttons {
+  margin-top: 40px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleCaption {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.captionContainer {
+  display: flex;
+  justify-content: space-between;
+
+  :global(.ant-input-number-disabled) {
+    color: black;
+  }
+}
+
+.modalCaption {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

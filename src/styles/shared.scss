@@ -1,0 +1,10 @@
+@mixin error-text {
+  color: #d91717;
+  font-size: 12px;
+  height: 18px;
+  padding-left: 8px;
+}
+
+@mixin error-input {
+  background: rgba(126, 36, 36, 0.42);
+}
